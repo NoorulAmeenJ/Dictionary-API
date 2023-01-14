@@ -1,61 +1,55 @@
-body{
-    /* text-align: center; */
-    /* margin: auto auto !important; */
-    /* display: flex; */
-    justify-content: center;
-    /* flex-wrap: wrap; */
-    background-color: rgb(154, 141, 141) !important;
-    
-         
+body {
+  /* text-align: center; */
+  /* margin: auto auto !important; */
+  /* display: flex; */
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  background-color: rgb(154, 141, 141) !important;
 }
-#description{
-    text-align: center;
-    font-size: xx-large;
-    color: whitesmoke;
+#description {
+  text-align: center;
+  font-size: xx-large;
+  color: whitesmoke;
 }
-#container{
-    /* border: 2px solid green ; */
+#container {
+  /* border: 2px solid green ; */
   margin-top: 10rem;
-  margin-left:auto;
+  margin-left: auto;
   margin-right: auto;
   width: 50rem;
   height: 12rem;
   display: grid;
   box-shadow: 2px 2px 20px 2px whitesmoke;
-    border-top-right-radius: 15px !important;
-    border-top-left-radius: 15px !important;
-  grid-template-areas: 
-
- 
-"input input submit" 
-"dis dis dis";
-
+  border-top-right-radius: 15px !important;
+  border-top-left-radius: 15px !important;
+  grid-template-areas:
+    "input input submit"
+    "dis dis dis";
 }
-#input{
-    grid-area: input;
-    background-color: whitesmoke;
-    font-size: xx-large;
-    color: rgb(246, 197, 139);
-    border-top-left-radius: 15px !important;
-    border: 0px solid white;
-
+#input {
+  grid-area: input;
+  background-color: whitesmoke;
+  font-size: xx-large;
+  color: rgb(246, 197, 139);
+  border-top-left-radius: 15px !important;
+  border: 0px solid white;
 }
-#submit{
-    grid-area : submit;
-    border-radius: 50%;
-    background-color: blueviolet;
-    font-weight: bolder;
-    font-size: xx-large;
-    color: wheat
+#submit {
+  grid-area: submit;
+  border-radius: 50%;
+  background-color: blueviolet;
+  font-weight: bolder;
+  font-size: xx-large;
+  color: wheat;
 }
-#display-box{
-    /* border: 2px solid red ; */
+#display-box {
+  /* border: 2px solid red ; */
   grid-area: dis;
   padding: 1rem;
   margin-top: 1rem;
-   color :blanchedalmond;
-   font-size: x-large;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: blanchedalmond;
+  font-size: x-large;
+  font-family: Georgia, "Times New Roman", Times, serif;
   background: linear-gradient(#e66465, #9198e5) !important;
-    /* display: inline-block; */
+  /* display: inline-block; */
 }
